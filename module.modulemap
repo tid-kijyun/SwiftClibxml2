@@ -1,0 +1,10 @@
+module SwiftClibxml2 [system] {  
+    header "libxml/tree.h"
+    header "libxml/parser.h"
+    header "libxml/HTMLparser.h"
+    header "libxml/xpath.h"    
+    header "libxml/xpathInternals.h"
+    link "xml2"
+    export *
+}
+
