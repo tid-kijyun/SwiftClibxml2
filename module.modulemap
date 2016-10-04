@@ -1,9 +1,10 @@
 module SwiftClibxml2 [system] {  
-    header "libxml/tree.h"
-    header "libxml/parser.h"
-    header "libxml/HTMLparser.h"
-    header "libxml/xpath.h"    
-    header "libxml/xpathInternals.h"
+    header "/usr/include/libxml2/libxml/tree.h"
+    header "/usr/include/libxml2/libxml/parser.h"
+    header "/usr/include/libxml2/libxml/HTMLtree.h"
+    header "/usr/include/libxml2/libxml/HTMLparser.h"
+    header "/usr/include/libxml2/libxml/xpath.h"
+    header "/usr/include/libxml2/libxml/xpathInternals.h"
     link "xml2"
     export *
 }
